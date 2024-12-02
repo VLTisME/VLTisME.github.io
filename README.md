@@ -3,6 +3,7 @@
 ### Education
 #### Highschool
 - Nguyen Binh Khiem High School for the Gifted, specified in Information Technology.
+  
 #### University
 - Ho Chi Minh University of Science - Vietnam National University (HCMUS - VNU). Currently I'm pursuing AI & DS field.
 
