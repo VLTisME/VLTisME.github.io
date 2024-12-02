@@ -32,7 +32,6 @@
 - And several small projects...
 
 ## Contact
-- Del: +84 813 161 507.
 - [Gmail:](volantuan0908@gmail.com).
 - [Linkedin:](https://www.linkedin.com/in/vltisme986/).
 - [Github:](https://github.com/VLTisME).
