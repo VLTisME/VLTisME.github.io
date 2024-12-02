@@ -32,8 +32,8 @@
 
 ## Contact
 - Del: +84 813 161 507.
-- [Gmail:][volantuan0908@gmail.com].
-- [Linkedin:][https://www.linkedin.com/in/vltisme986/].
-- [Github:][https://github.com/VLTisME].
+- [Gmail:](volantuan0908@gmail.com).
+- [Linkedin:](https://www.linkedin.com/in/vltisme986/).
+- [Github:](https://github.com/VLTisME).
    
 ![VLT](https://github.com/user-attachments/assets/e28e45f5-21c9-4a49-8755-a603569e8a7f)
