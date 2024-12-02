@@ -1,4 +1,3 @@
-theme: jekyll-theme-NAME
 # VLTisME.github.io
 ## Introduction (Draft)
 ### Education
