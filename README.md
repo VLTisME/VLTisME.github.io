@@ -20,7 +20,8 @@
 
 
 ## Achievements
-- Several Fisrt, and Second prizes in Provincial Olympiads in Information Technology.
+- Second prize in Provincial Olympiads in Information Technology.
+- First prize in Provincial Olympiads in Information Technology for the Youth.
 - Two Gold Medals, one in Olympiads in Information Technology in the Central Vietnam, the second one is in Traditional 30/4 Oplympiads in Information Technology.
 - Top 50 Code Tour 2024.
 - 7.5 IELTS.
@@ -36,4 +37,4 @@
 - [Linkedin:](https://www.linkedin.com/in/vltisme986/).
 - [Github:](https://github.com/VLTisME).
    
-![VLT](https://github.com/user-attachments/assets/e28e45f5-21c9-4a49-8755-a603569e8a7f)
+<!-- ![VLT](https://github.com/user-attachments/assets/e28e45f5-21c9-4a49-8755-a603569e8a7f) -->
