@@ -1,9 +1,12 @@
-name: Deploy Jekyll site to GitHub Pages  
-
-on:  
-  push:  
-    branches:  
-      - main  # Replace this with your default branch name  
+name: "Build and Deploy"
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
 
 jobs:  
   deploy:  
