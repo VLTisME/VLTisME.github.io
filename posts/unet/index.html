@@ -679,7 +679,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="114 words"
+  title="208 words"
 >
   <em>1 min</em> read</span>
 
@@ -712,6 +712,21 @@ g, h, i, j
 tuong tu tinh cho row cuoi
 xong roi cot 1 cung tinh nhu vay, cot cuoi cung tinh nhu vay
 va roi nhung thang o giua cung duoc tinh nhu vay, dua vao nhung thang da co</p>
+
+<ul>
+  <li>
+    <p>in pytorch, they use ‘dim’ instead of ‘axis’ like in tf or np</p>
+  </li>
+  <li>use “from .unet_parts.py import *” when the unet_parts.py is in the same package as unet_model.py”:
+project/<br />
+├── main.py<br />
+├── mypackage/<br />
+│   ├── <strong>init</strong>.py<br />
+│   ├── unet_parts.py<br />
+│   ├── unet_model.py  # Contains “from .unet_parts import *”</li>
+  <li>“from unet_parts.py import *” Use this for absolute imports, which require unet_parts to be accessible as a top-level module in Python’s import path. This can break in certain contexts (e.g., when running as part of a larger package).</li>
+  <li>a package (mot goi) contains files, or subpackages</li>
+</ul>
 
   </div>
 
