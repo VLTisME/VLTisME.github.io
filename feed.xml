@@ -4,7 +4,7 @@
   <id>https://vltisme.github.io/</id>
   <title>Turtle</title>
   <subtitle>My blog, my power.</subtitle>
-  <updated>2025-02-23T08:35:45+07:00</updated>
+  <updated>2025-02-26T10:11:54+07:00</updated>
   <author>
     <name>Vo Lan Tuan</name>
     <uri>https://vltisme.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>UNet</title>
+    <link href="https://vltisme.github.io/posts/unet/" rel="alternate" type="text/html" title="UNet" />
+    <published>2025-02-26T10:10:10+07:00</published>
+  
+    <updated>2025-02-26T10:10:10+07:00</updated>
+  
+    <id>https://vltisme.github.io/posts/unet/</id>
+    <content type="text/html" src="https://vltisme.github.io/posts/unet/" />
+    <author>
+      <name>Vo Lan Tuan</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="DL" />
+    
+  
+
+  <summary>Explore UNet...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.  Naming and Path  Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Text and Typography</title>
-    <link href="https://vltisme.github.io/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
-    <published>2019-08-08T10:33:00+07:00</published>
-  
-    <updated>2019-08-08T10:33:00+07:00</updated>
-  
-    <id>https://vltisme.github.io/posts/text-and-typography/</id>
-    <content type="text/html" src="https://vltisme.github.io/posts/text-and-typography/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  <summary>Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.</summary>
 
   </entry>
 
