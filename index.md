@@ -3,4 +3,4 @@ layout: default
 title: Home  
 ---  
 # Welcome to My Site  
-This is your site's homepage content.
+Content will be shown here :D.
