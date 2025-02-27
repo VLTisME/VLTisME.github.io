@@ -39,4 +39,4 @@ order: 4
 **Bonus**: I'm still single '-'.  
 
 
-[My resume:](assets/resume/my_resume.pdf) 
+[My resume:](/assets/resume/my_resume.pdf) 
