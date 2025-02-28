@@ -242,31 +242,28 @@
   
     
         
-          <!-- GoatCounter Analytics -->  
-<script data-goatcounter="https://whatisthecode.goatcounter.com.goatcounter.com/count"  
-        async src="//gc.zgo.at/count.js"></script>  
+          <!-- Display GoatCounter pageviews -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pv = document.getElementById('pageviews');
 
-<!-- Display GoatCounter pageviews -->  
-<script>  
-  document.addEventListener('DOMContentLoaded', () => {  
-    const pv = document.getElementById('pageviews');  
+    if (pv !== null) {
+      const uri = location.pathname.replace(/\/$/, '');
+      const url = `https://whatisthecode.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
 
-    if (pv !== null) {  
-      const uri = location.pathname.replace(/\/$/, '') || '/';  
-      
-      fetch('/assets/pageviews.json')  
-        .then(response => response.json())  
-        .then(data => {  
-          const count = data[uri] || 0;  
-          pv.innerText = new Intl.NumberFormat().format(count);  
-        })  
-        .catch(error => {  
-          console.error('Error fetching page views:', error);  
-          pv.innerText = '0';  
-        });  
-    }  
-  });  
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          const count = data.count.replace(/\s/g, '');
+          pv.innerText = new Intl.NumberFormat().format(count);
+        })
+        .catch((error) => {
+          pv.innerText = '1';
+        });
+    }
+  });
 </script>
+
         
     
   
