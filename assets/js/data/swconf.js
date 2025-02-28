@@ -1,6 +1,6 @@
 const swconf = {
   
-    cacheName: 'chirpy-1740638508',resources: [
+    cacheName: 'chirpy-1740706156',resources: [
       '/assets/css/jekyll-theme-chirpy.css',
       '/',
       
@@ -21,7 +21,7 @@ const swconf = {
         
       ],urlPrefixes: [
         
-          'https://https://whatisthecode.goatcounter.com/.goatcounter.com/counter/'
+          'https://whatisthecode.goatcounter.com.goatcounter.com/counter/'
         
       ]
     },
