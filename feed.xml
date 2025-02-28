@@ -4,7 +4,7 @@
   <id>https://vltisme.github.io/</id>
   <title>Turtle</title>
   <subtitle>My blog, my power.</subtitle>
-  <updated>2025-02-28T12:02:18+07:00</updated>
+  <updated>2025-02-28T21:50:54+07:00</updated>
   <author>
     <name>Vo Lan Tuan</name>
     <uri>https://vltisme.github.io/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Series người hiền lành, part 1</title>
+    <link href="https://vltisme.github.io/posts/Series-ng%C6%B0%E1%BB%9Di-hi%E1%BB%81n-l%C3%A0nh-pt.1/" rel="alternate" type="text/html" title="Series người hiền lành, part 1" />
+    <published>2025-02-28T21:29:00+07:00</published>
+  
+    <updated>2025-02-28T21:29:00+07:00</updated>
+  
+    <id>https://vltisme.github.io/posts/Series-ng%C6%B0%E1%BB%9Di-hi%E1%BB%81n-l%C3%A0nh-pt.1/</id>
+    <content type="text/html" src="https://vltisme.github.io/posts/Series-ng%C6%B0%E1%BB%9Di-hi%E1%BB%81n-l%C3%A0nh-pt.1/" />
+    <author>
+      <name>Vo Lan Tuan</name>
+    </author>
+
+  
+    
+    <category term="Human Development" />
+    
+  
+
+  <summary>Kẻ nhỏ hẹp thì ồn ào, khoa trương thanh thế. Người tự cao núp bóng khiêm nhường, lòng giấu kiêu căng. Bậc trí giả, lặng im để tâm trong sáng.</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +143,6 @@
   
 
   <summary>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Writing a New Post</title>
-    <link href="https://vltisme.github.io/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T13:10:00+07:00</published>
-  
-    <updated>2019-08-08T13:10:00+07:00</updated>
-  
-    <id>https://vltisme.github.io/posts/write-a-new-post/</id>
-    <content type="text/html" src="https://vltisme.github.io/posts/write-a-new-post/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  <summary>This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.  Naming and Path  Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...</summary>
 
   </entry>
 
