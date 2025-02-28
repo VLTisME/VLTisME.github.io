@@ -233,24 +233,28 @@
   
     
         
-          <script data-goatcounter="https://whatisthecode.goatcounter.com/count" src="//gc.zgo.at/count.js" async></script>  
-<script>  
-    document.addEventListener('DOMContentLoaded', function () {  
-        // Wait for GoatCounter to load  
-        var t = setInterval(function () {  
-            if (window.goatcounter && window.goatcounter.visit_count) {  
-                clearInterval(t); // Stop the interval once GoatCounter is ready  
-                window.goatcounter.visit_count({  
-                    append: '#pageviews',  
-                    callback: function () {  
-                        const spinner = document.querySelector('#pageviews .fa-spinner');  
-                        if (spinner) spinner.remove();  
-                    }  
-                });  
-            }  
-        }, 100);  
-    });  
+          <!-- Display GoatCounter pageviews -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pv = document.getElementById('pageviews');
+
+    if (pv !== null) {
+      const uri = location.pathname.replace(/\/$/, '');
+      const url = `https://whatisthecode.goatcounter.com.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
+
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          const count = data.count.replace(/\s/g, '');
+          pv.innerText = new Intl.NumberFormat().format(count);
+        })
+        .catch((error) => {
+          pv.innerText = '1';
+        });
+    }
+  });
 </script>
+
         
     
   
@@ -261,6 +265,9 @@
 
   <!-- A placeholder to allow defining custom metadata -->
 
+
+  <script data-goatcounter="https://whatisthecode.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </head>
 
 
