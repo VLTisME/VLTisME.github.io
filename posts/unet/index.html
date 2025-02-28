@@ -234,18 +234,17 @@
     
         
           <!-- GoatCounter Tracking Script -->  
-<script data-goatcounter="https://whatisthecode.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>  
-
-<!-- Visit Count Display Logic -->  
+<script data-goatcounter="https://whatisthecode.goatcounter.com/count" src="//gc.zgo.at/count.js" async></script>  
 <script>  
-    // Wait for GoatCounter to load before calling visit_count  
-    var t = setInterval(function () {  
-        if (window.goatcounter && window.goatcounter.visit_count) {  
-            clearInterval(t); // Stop the interval once GoatCounter is loaded  
-            window.goatcounter.visit_count({ append: '#pageview-counter' }); // Append count to element  
+    // Append count to the correct element and remove spinner after loading  
+    window.goatcounter.visit_count({  
+        append: '#pageviews',   
+        callback: function () {  
+            const spinner = document.querySelector('#pageviews .fa-spinner');  
+            if (spinner) spinner.remove();  
         }  
-    }, 100); // Check every 100ms  
-</script>
+    });  
+</script>  
         
     
   
