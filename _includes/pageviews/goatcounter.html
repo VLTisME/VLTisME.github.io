@@ -1,5 +1,5 @@
 <!-- Display GoatCounter pageviews -->
-<script>
+<!-- <script>
   document.addEventListener('DOMContentLoaded', () => {
     const pv = document.getElementById('pageviews');
 
@@ -18,4 +18,40 @@
         });
     }
   });
+</script> -->
+
+
+<script>  
+  document.addEventListener('DOMContentLoaded', () => {  
+    const pv = document.getElementById('pageviews'); // Ensure you have an element with ID "pageviews"  
+
+    if (pv !== null) {  
+      // Get the current page path (remove trailing slash if exists)  
+      const pagePath = location.pathname.replace(/\/$/, '');  
+
+      // GoatCounter site ID from config.yml  
+      const goatCounterID = 'whatisthecode.goatcounter.com'; // Replace this text if needed  
+
+      // Construct the GoatCounter API endpoint for pageviews  
+      const url = `https://${goatCounterID}/count?path=${encodeURIComponent(pagePath)}`;  
+
+      // Fetch the pageviews from the API  
+      fetch(url)  
+        .then((response) => {  
+          if (!response.ok) {  
+            throw new Error(`HTTP error! status: ${response.status}`);  
+          }  
+          return response.json();  
+        })  
+        .then((data) => {  
+          // Display the pageview count, default to 0 if data.count is not available  
+          const count = data.count || 0;  
+          pv.innerText = new Intl.NumberFormat().format(count); // Formats the count with separators  
+        })  
+        .catch((error) => {  
+          console.error('Failed to fetch pageviews:', error);  
+          pv.innerText = '0'; // Fallback value on error  
+        });  
+    }  
+  });  
 </script>
