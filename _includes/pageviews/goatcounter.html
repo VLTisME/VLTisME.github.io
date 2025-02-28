@@ -1,22 +1,13 @@
-<!-- Display GoatCounter pageviews -->
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const pv = document.getElementById('pageviews');
+<!-- GoatCounter Tracking Script -->  
+<script data-goatcounter="https://whatisthecode.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>  
 
-    if (pv !== null) {
-      const uri = location.pathname.replace(/\/$/, '');
-      const url = `https://whatisthecode.goatcounter.com/counter${uri}.json`;
-
-      fetch(url)
-        .then((response) => response.json())
-        .then((data) => {
-          const count = data.count.replace(/\s/g, '');
-          pv.innerText = new Intl.NumberFormat().format(count);
-        })
-        .catch((error) => {
-          pv.innerText = '1';
-        });
-    }
-  });
+<!-- Visit Count Display Logic -->  
+<script>  
+    // Wait for GoatCounter to load before calling visit_count  
+    var t = setInterval(function () {  
+        if (window.goatcounter && window.goatcounter.visit_count) {  
+            clearInterval(t); // Stop the interval once GoatCounter is loaded  
+            window.goatcounter.visit_count({ append: '#pageview-counter' }); // Append count to element  
+        }  
+    }, 100); // Check every 100ms  
 </script>
-<!-- const url = `https://{{ site.analytics.goatcounter.id }}.goatcounter.com/counter/${encodeURIComponent(uri)}.json`; -->
