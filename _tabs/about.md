@@ -29,7 +29,8 @@ order: 4
 - Want to experience extreme sports like skydiving, parachuting, climbing, etc.  
 - Love teaching, helping others (this brings joy and happiness fr). If I have more time, I will go teaching stuff I'm good at or doing more charities.
 - Love singing, though I sing terribly.
-- **Instruments**: I can play *Do Re Mi Fa Sol* on the guitar, kalimba, and flute.  
+- **Instruments**: I can play *Do Re Mi Fa Sol* on the guitar, kalimba, and flute.
+- Read alot mangas '-', mostly types: super-natural, bigbrain, human development,..........
 - In the past:  
   - Loved STEM stuff like crafting things with paper carton, utilizing batteries, ice cream sticks, and making car models.  
   - Drew flipbooks, did origami, and more.  
