@@ -579,6 +579,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -693,7 +704,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="431 words"
+  title="450 words"
 >
   <em>2 min</em> read</span>
 
@@ -762,6 +773,12 @@ This means that for every pixel in the input image, the model outputs probabilit
 During the forward pass, PyTorch normally stores all activations (intermediate tensors) in memory because they are needed to compute gradients during the backward pass.
 With activation checkpointing, instead of storing all intermediate activations, some intermediate activations can be recomputed during the backward pass to reduce memory usage.
 This trades memory for computation: you save GPU memory during training but spend more computational resources in the backward pass to recompute activations.</p>
+
+<h3 id="magic-in-unet"><span class="me-2">magic in unet:</span><a href="#magic-in-unet" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ul>
+  <li>use elastic deformation data augmentation in bio images is a brilliant idea.</li>
+  <li>no dense layer used</li>
+</ul>
 
   </div>
 
@@ -903,6 +920,13 @@ This trades memory for computation: you save GPU memory during training but spen
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/Deeplab/">UNet</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/my-first-post/">My first blog</a>
         </li>
       
@@ -911,13 +935,6 @@ This trades memory for computation: you save GPU memory during training but spen
         
         <li class="text-truncate lh-lg">
           <a href="/posts/customize-the-favicon/">Customize the Favicon</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/getting-started/">Getting Started</a>
         </li>
       
     </ul>
@@ -955,6 +972,25 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
     
   
@@ -970,31 +1006,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1023,8 +1034,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
     
   
     
@@ -1060,8 +1069,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
     
   
     
@@ -1104,8 +1111,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
     
   
     
@@ -1155,8 +1160,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
     
   
     
@@ -1292,6 +1295,17 @@ This trades memory for computation: you save GPU memory during training but spen
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -1301,6 +1315,43 @@ This trades memory for computation: you save GPU memory during training but spen
 
 
 
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Further Reading</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/Deeplab/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1740539410"
+  data-df="ll"
+  
+>
+  Feb 26, 2025
+</time>
+
+              <h4 class="pt-0 my-2">UNet</h4>
+              <div class="text-muted">
+                <p>Explore UNet...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
 
 
             
@@ -1323,11 +1374,11 @@ This trades memory for computation: you save GPU memory during training but spen
 
   
     <a
-      href="/posts/Series-ng%C6%B0%E1%BB%9Di-hi%E1%BB%81n-l%C3%A0nh-pt.1/"
+      href="/posts/Deeplab/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>Kind person, part 1</p>
+      <p>UNet</p>
     </a>
   
 </nav>
@@ -1408,6 +1459,25 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
     
   
@@ -1423,31 +1493,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1476,8 +1521,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
     
   
     
@@ -1513,8 +1556,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
     
   
     
@@ -1557,8 +1598,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
     
   
     
@@ -1608,8 +1647,6 @@ This trades memory for computation: you save GPU memory during training but spen
     
     
     
-    
-      
     
   
     

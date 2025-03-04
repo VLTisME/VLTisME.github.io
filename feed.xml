@@ -4,7 +4,7 @@
   <id>https://vltisme.github.io/</id>
   <title>Turtle</title>
   <subtitle>My blog, my power.</subtitle>
-  <updated>2025-02-28T21:57:10+07:00</updated>
+  <updated>2025-03-04T12:03:40+07:00</updated>
   <author>
     <name>Vo Lan Tuan</name>
     <uri>https://vltisme.github.io/</uri>
@@ -39,6 +39,32 @@
   
 
   <summary>The narrow-minded are loud, flaunting their stature. The arrogant hide behind humility, yet harbor conceit within. The wise remain silent, keeping their hearts clear and pure.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>UNet</title>
+    <link href="https://vltisme.github.io/posts/Deeplab/" rel="alternate" type="text/html" title="UNet" />
+    <published>2025-02-26T10:10:10+07:00</published>
+  
+    <updated>2025-02-26T10:10:10+07:00</updated>
+  
+    <id>https://vltisme.github.io/posts/Deeplab/</id>
+    <content type="text/html" src="https://vltisme.github.io/posts/Deeplab/" />
+    <author>
+      <name>Vo Lan Tuan</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="DL" />
+    
+  
+
+  <summary>Explore UNet...</summary>
 
   </entry>
 
@@ -117,32 +143,6 @@
   
 
   <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.  Generate the favicon  Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Getting Started</title>
-    <link href="https://vltisme.github.io/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T19:55:00+07:00</published>
-  
-    <updated>2019-08-09T19:55:00+07:00</updated>
-  
-    <id>https://vltisme.github.io/posts/getting-started/</id>
-    <content type="text/html" src="https://vltisme.github.io/posts/getting-started/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  <summary>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</summary>
 
   </entry>
 

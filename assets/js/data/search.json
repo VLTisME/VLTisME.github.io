@@ -9,6 +9,14 @@
   },
   {
     "title": "UNet",
+    "url": "/posts/Deeplab/",
+    "categories": "AI, DL",
+    "tags": "computer vision",
+    "date": "2025-02-26 10:10:10 +0700",
+    "content": "Explore UNet..."
+  },
+  {
+    "title": "UNet",
     "url": "/posts/unet/",
     "categories": "AI, DL",
     "tags": "computer vision",
