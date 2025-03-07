@@ -30,10 +30,11 @@ order: 4
 - Love teaching, helping others (this brings joy and happiness fr). If I have more time, I will go teaching stuff I'm good at or doing more charities.
 - Love singing, though I sing terribly.
 - **Instruments**: I can play *Do Re Mi Fa Sol* on the guitar, kalimba, and flute.
-- Read alot mangas '-', mostly types: super-natural, bigbrain, human development,..........
+- Read manga a lot '-', mostly types: Adventure (OnePiece,....), super-natural (OnePunch Man,...), big-brain (Liar game, Death Note,....), human development (Vagabond,...), romcom (Kaguya-Sama,...), some very dark one (Berserk,...)...
 - In the past:  
   - Loved STEM stuff like crafting things with paper carton, utilizing batteries, ice cream sticks, and making car models.  
-  - Drew flipbooks, did origami, and more.  
+  - Drew flipbook, did origami, and more.  
+- I'm always ready to help someone lol but sometimes I'm quite annoying.
 - Wish people to be healthy and always be better every day.  
 - **Languages**: Vietnamese, English, and a bit of French (if I had more time, I would learn it seriously).  
 
