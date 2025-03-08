@@ -1,5 +1,13 @@
 [
   {
+    "title": "Learning tips",
+    "url": "/posts/learning-tips/",
+    "categories": "Study, tips",
+    "tags": "hack, productivity",
+    "date": "2025-03-08 21:29:02 +0700",
+    "content": "My learning strategies, my experience, I will share here!"
+  },
+  {
     "title": "DeepLab",
     "url": "/posts/Deeplab/",
     "categories": "AI, DL",
