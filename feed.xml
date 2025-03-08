@@ -4,7 +4,7 @@
   <id>https://vltisme.github.io/</id>
   <title>Turtle</title>
   <subtitle>My blog, my power.</subtitle>
-  <updated>2025-03-08T10:15:48+07:00</updated>
+  <updated>2025-03-08T11:17:12+07:00</updated>
   <author>
     <name>Vo Lan Tuan</name>
     <uri>https://vltisme.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>DeepLab</title>
+    <link href="https://vltisme.github.io/posts/Deeplab/" rel="alternate" type="text/html" title="DeepLab" />
+    <published>2025-03-04T10:10:10+07:00</published>
+  
+    <updated>2025-03-04T10:10:10+07:00</updated>
+  
+    <id>https://vltisme.github.io/posts/Deeplab/</id>
+    <content type="text/html" src="https://vltisme.github.io/posts/Deeplab/" />
+    <author>
+      <name>Vo Lan Tuan</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="DL" />
+    
+  
+
+  <summary>An Overview about DeepLab...</summary>
+
+  </entry>
 
   
   <entry>
@@ -39,32 +65,6 @@
   
 
   <summary>The narrow-minded are loud, flaunting their stature. The arrogant hide behind humility, yet harbor conceit within. The wise remain silent, keeping their hearts clear and pure.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>DeepLab</title>
-    <link href="https://vltisme.github.io/posts/Deeplab/" rel="alternate" type="text/html" title="DeepLab" />
-    <published>2025-02-26T10:10:10+07:00</published>
-  
-    <updated>2025-02-26T10:10:10+07:00</updated>
-  
-    <id>https://vltisme.github.io/posts/Deeplab/</id>
-    <content type="text/html" src="https://vltisme.github.io/posts/Deeplab/" />
-    <author>
-      <name>Vo Lan Tuan</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="DL" />
-    
-  
-
-  <summary>An Overview about DeepLab...</summary>
 
   </entry>
 
