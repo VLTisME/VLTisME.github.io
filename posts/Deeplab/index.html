@@ -30,11 +30,11 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="UNet" />
+<meta property="og:title" content="DeepLab" />
 <meta name="author" content="Tuan Vo Lan" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Explore UNet…" />
-<meta property="og:description" content="Explore UNet…" />
+<meta name="description" content="An Overview of DeepLab…" />
+<meta property="og:description" content="An Overview of DeepLab…" />
 <link rel="canonical" href="https://vltisme.github.io/posts/Deeplab/" />
 <meta property="og:url" content="https://vltisme.github.io/posts/Deeplab/" />
 <meta property="og:site_name" content="Turtle" />
@@ -42,13 +42,13 @@
 <meta property="article:published_time" content="2025-02-26T10:10:10+07:00" />
 <meta property="og:image" content="https://chirpy-img.netlify.app/VLT" /><meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:image" content="https://chirpy-img.netlify.app/VLT" />
-<meta property="twitter:title" content="UNet" />
+<meta property="twitter:title" content="DeepLab" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Tuan Vo Lan","url":"https://github.com/VLTisME"},"dateModified":"2025-02-26T10:10:10+07:00","datePublished":"2025-02-26T10:10:10+07:00","description":"Explore UNet…","headline":"UNet","mainEntityOfPage":{"@type":"WebPage","@id":"https://vltisme.github.io/posts/Deeplab/"},"url":"https://vltisme.github.io/posts/Deeplab/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Tuan Vo Lan","url":"https://github.com/VLTisME"},"dateModified":"2025-02-26T10:10:10+07:00","datePublished":"2025-02-26T10:10:10+07:00","description":"An Overview of DeepLab…","headline":"DeepLab","mainEntityOfPage":{"@type":"WebPage","@id":"https://vltisme.github.io/posts/Deeplab/"},"url":"https://vltisme.github.io/posts/Deeplab/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>UNet | Turtle
+  <title>DeepLab | Turtle
   </title>
 
   <!--
@@ -462,7 +462,7 @@
         
           
             
-              <span>UNet</span>
+              <span>DeepLab</span>
             
 
           
@@ -529,6 +529,95 @@
 
 
 
+
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
 
 
 <!-- Add header for code snippets -->
@@ -598,9 +687,9 @@
 
 <article class="px-1" data-toc="false">
   <header>
-    <h1 data-toc-skip>UNet</h1>
+    <h1 data-toc-skip>DeepLab</h1>
     
-      <p class="post-desc fw-light mb-4">Explore UNet...</p>
+      <p class="post-desc fw-light mb-4">An Overview of DeepLab...</p>
     
 
     <div class="post-meta text-muted">
@@ -682,7 +771,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="44 words"
+  title="55 words"
 >
   <em>1 min</em> read</span>
 
@@ -694,10 +783,12 @@
   
 
   <div class="content">
-    <h3 id="magic-in-deeplab"><span class="me-2">magic in deeplab:</span><a href="#magic-in-deeplab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+    <p><a href="https://chirpy-img.netlify.app/assets/img/favicons/DeepLab_Architecture.webp" class="popup img-link  shimmer"><img src="https://chirpy-img.netlify.app/assets/img/favicons/DeepLab_Architecture.webp" alt="DeepLab Architecture" width="700" height="400" loading="lazy"></a></p>
+
+<h3 id="magic-in-deeplab"><span class="me-2">Magic in DeepLab:</span><a href="#magic-in-deeplab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
-  <li>use atrous convolution to allow a kernel to capture larger image to understand the context more.</li>
-  <li>use ASPP to utilize different rates R in atrous convolution to effectively capture contexts (like, when do we need to look further? when not? :D)</li>
+  <li>Utilizes atrous convolution to enable kernels to capture a larger field of view, improving the ability to understand context.</li>
+  <li>Implements ASPP (Atrous Spatial Pyramid Pooling) to apply atrous convolutions with multiple dilation rates, effectively capturing varying levels of context (e.g., when to focus on broader areas and when to zoom in :D).</li>
 </ul>
 
   </div>
@@ -757,21 +848,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=UNet%20-%20Turtle&url=https%3A%2F%2Fvltisme.github.io%2Fposts%2FDeeplab%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=DeepLab%20-%20Turtle&url=https%3A%2F%2Fvltisme.github.io%2Fposts%2FDeeplab%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=UNet%20-%20Turtle&u=https%3A%2F%2Fvltisme.github.io%2Fposts%2FDeeplab%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=DeepLab%20-%20Turtle&u=https%3A%2F%2Fvltisme.github.io%2Fposts%2FDeeplab%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fvltisme.github.io%2Fposts%2FDeeplab%2F&text=UNet%20-%20Turtle" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fvltisme.github.io%2Fposts%2FDeeplab%2F&text=DeepLab%20-%20Turtle" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -840,7 +931,7 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Deeplab/">UNet</a>
+          <a href="/posts/Deeplab/">DeepLab</a>
         </li>
       
         

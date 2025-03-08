@@ -4,7 +4,7 @@
   <id>https://vltisme.github.io/</id>
   <title>Turtle</title>
   <subtitle>My blog, my power.</subtitle>
-  <updated>2025-03-08T09:44:59+07:00</updated>
+  <updated>2025-03-08T09:53:57+07:00</updated>
   <author>
     <name>Vo Lan Tuan</name>
     <uri>https://vltisme.github.io/</uri>
@@ -44,8 +44,8 @@
 
   
   <entry>
-    <title>UNet</title>
-    <link href="https://vltisme.github.io/posts/Deeplab/" rel="alternate" type="text/html" title="UNet" />
+    <title>DeepLab</title>
+    <link href="https://vltisme.github.io/posts/Deeplab/" rel="alternate" type="text/html" title="DeepLab" />
     <published>2025-02-26T10:10:10+07:00</published>
   
     <updated>2025-02-26T10:10:10+07:00</updated>
@@ -64,7 +64,7 @@
     
   
 
-  <summary>Explore UNet...</summary>
+  <summary>An Overview of DeepLab...</summary>
 
   </entry>
 
