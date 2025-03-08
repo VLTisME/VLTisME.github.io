@@ -11,36 +11,35 @@ order: 4
 
 ## About Me  
 
-- *Hi, I'm Tuan! A freshman at VNU-HCM University of Science who loves exploring creative solutions, learning about tech, and sharing what I know with the community.*  
-- *Welcome to my world. I’m passionate about AI, Competitive Programming, Human Development, and Astronomy, and this is where I document my journey.*  
+- *Hi, I'm Tuan! A freshman at VNU-HCM University of Science who loves exploring creative solutions, learning about tech, and sharing knowledge with the community.*  
+- *Welcome to my world. I’m passionate about AI, Competitive Programming, Human Development, and Astronomy. This is where I document my journey.*  
 
 ### Little Things About Me:  
-- I love writing, mostly about human development and emotions.  
+- I love writing, especially about human development and emotions.  
 - Always striving to be better than yesterday.  
-- Sometimes seeking a quiet place to ponder, sometimes wanting to be with someone. Is this a sign of being single for so long?  
-- Super cherish life—never kill even a single ant.  
-- Have the mindset of a swordsman, or maybe a monk.  
-- Love challenges (I rode 90km with my cheap bike, lol).
-- Love stargazing! Sadly the sky in Ho Chi Minh city is highly light polluted :(. My fav spot for this hobby is at the beach in my hometown.
-- Love traveling:  
-  - To high mountains in China.  
-  - To religious places like India.  
-  - To astonishing landscapes like Norway, and more.  
-- Want to experience extreme sports like skydiving, parachuting, climbing, etc.  
-- Love teaching, helping others (this brings joy and happiness fr). If I have more time, I will go teaching stuff I'm good at or doing more charities.
-- Love singing, though I sing terribly.
-- **Instruments**: I can play *Do Re Mi Fa Sol* on the guitar, kalimba, and flute.
-- Read manga a lot '-', mostly types: Adventure (OnePiece,....), super-natural (OnePunch Man,...), big-brain (Liar game, Death Note,....), human development (Vagabond,...), romcom (Kaguya-Sama,...), some very dark one (Berserk,...)...
+- Sometimes I look for a quiet place to think; other times, I just want to be with someone. Is this a sign of being single for too long?  
+- I deeply cherish life—never harm even a single ant.  
+- I have the mindset of a swordsman, or maybe a monk.  
+- I enjoy challenges (I once rode 90km on my cheap bike and ran half-marathon, lol).  
+- I love stargazing! Sadly, the night sky in Ho Chi Minh City is extremely light-polluted :(. My favorite spot for this hobby is on the beach in my hometown.  
+- I love traveling:  
+  - To the towering mountains of China.  
+  - To spiritual places like India.  
+  - To breathtaking landscapes like Norway, and more.  
+- I want to try extreme sports like skydiving, parachuting, climbing, and more.  
+- I love teaching and helping others (this brings me so much joy). If I had more time, I’d teach more of what I know or do more charity work.  
+- I love singing, though I sing terribly!  
+- **Instruments**: I can play *Do Re Mi Fa Sol* on the guitar, kalimba, and flute.  
+- I read a lot of manga '-', mostly these genres: Adventure (*One Piece,...*), supernatural (*One Punch Man,...*), big-brain (*Liar Game, Death Note,...*), human development (*Vagabond,...*), romcom (*Kaguya-Sama,...*), and some really dark ones (*Berserk,...*).  
 - In the past:  
-  - Loved STEM stuff like crafting things with paper carton, utilizing batteries, ice cream sticks, and making car models.  
-  - Drew flipbook, did origami, and more.  
-- I'm always ready to help someone lol but sometimes I'm quite annoying.
-- Wish people to be healthy and always be better every day.  
-- **Languages**: Vietnamese, English, and a bit of French (if I had more time, I would learn it seriously).  
+  - I loved STEM activities like crafting with paper cartons, batteries, ice cream sticks, and making car models.  
+  - I drew flipbooks, did origami, and experimented with creative stuff.  
+- I’m always ready to help someone, lol, but I can be a bit annoying at times.  
+- I wish health and happiness to everyone, and I hope we all become a little better every day.  
+- **Languages**: Vietnamese, English, and some French (if I had more time, I’d learn it seriously).  
 
 ---  
 
 **Bonus**: I'm still single '-'.  
 
-
-[My resume:](/assets/resume/my_resume.pdf) 
+[My resume:](/assets/resume/my_resume.pdf)
