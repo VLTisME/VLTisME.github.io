@@ -657,6 +657,50 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -771,9 +815,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="55 words"
+  title="566 words"
 >
-  <em>1 min</em> read</span>
+  <em>3 min</em> read</span>
 
         </div>
       </div>
@@ -783,7 +827,87 @@
   
 
   <div class="content">
-    <p><a href="https://chirpy-img.netlify.app/assets/img/favicons/DeepLab_Architecture.webp" class="popup img-link  shimmer"><img src="https://chirpy-img.netlify.app/assets/img/favicons/DeepLab_Architecture.webp" alt="DeepLab Architecture" width="700" height="400" loading="lazy"></a></p>
+    <p>All of this post I rewrote from this <a href="https://medium.com/@saba99/deeplab-095f387f891f">post</a>; the author has a very comprehensible explanation.</p>
+
+<p><a href="https://chirpy-img.netlify.app/../assets/img/favicons/DeepLab_Architecture.webp" class="popup img-link  shimmer"><img src="https://chirpy-img.netlify.app/../assets/img/favicons/DeepLab_Architecture.webp" alt="DeepLab Architecture" width="700" height="400" loading="lazy"></a></p>
+
+<h3 id="deeplab-overview"><span class="me-2">DeepLab Overview</span><a href="#deeplab-overview" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>DeepLab is a family of convolutional neural network (CNN) architectures designed for semantic segmentation in computer vision. These models are known for their ability to capture fine-grained details and perform semantic segmentation on high-resolution images. The DeepLab architecture has undergone several iterations, each with improvements to achieve better results in various computer vision tasks. Here’s an explanation of DeepLab, its methods, results, and architecture:</p>
+
+<hr />
+
+<h3 id="methods"><span class="me-2">Methods</span><a href="#methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>DeepLab models incorporate several key methods and components to achieve state-of-the-art results in semantic segmentation:</p>
+
+<ol>
+  <li>
+    <p><strong>Dilated Convolutions (Atrous Convolutions)</strong>:<br />
+DeepLab employs dilated convolutions, also known as atrous convolutions, which allow the network to capture multi-scale contextual information without down-sampling the spatial resolution of feature maps. This is crucial for preserving fine details while maintaining a large receptive field.</p>
+  </li>
+  <li>
+    <p><strong>Atrous Spatial Pyramid Pooling (ASPP)</strong>:<br />
+DeepLabv3 and later versions use ASPP, which is a module that employs multiple parallel atrous convolutions with different rates. ASPP enables the network to capture contextual information at multiple scales, improving segmentation accuracy.</p>
+  </li>
+  <li>
+    <p><strong>Backbone Network</strong>:<br />
+DeepLab can be combined with various backbone networks, such as ResNet or MobileNet, which provide the initial feature representation. The choice of backbone network influences the overall performance and computational efficiency of the model.</p>
+  </li>
+  <li>
+    <p><strong>CrfRnn</strong>:<br />
+Some versions of DeepLab incorporate a CRF (Conditional Random Field) as a post-processing step to refine the segmentation results. This step helps smooth the boundaries and improve the quality of the output.</p>
+  </li>
+</ol>
+
+<hr />
+<h3 id="results"><span class="me-2">Results</span><a href="#results" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>DeepLab models have consistently achieved state-of-the-art results in various computer vision tasks, including semantic segmentation, instance segmentation, and object detection. These models are widely used in applications such as autonomous driving, satellite image analysis, medical image analysis, and more. Some specific results achieved by DeepLab models include:</p>
+
+<ul>
+  <li>High accuracy in pixel-wise segmentation, particularly on large and high-resolution images.</li>
+  <li>The ability to segment fine-grained details, such as small objects and object boundaries.</li>
+  <li>Robust performance in challenging scenarios, like urban scenes and medical imaging.</li>
+  <li>Competitive results in instance segmentation tasks when combined with Mask R-CNN.</li>
+</ul>
+
+<hr />
+
+<h3 id="architecture"><span class="me-2">Architecture</span><a href="#architecture" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>The architecture of DeepLab models can be summarized as follows:</p>
+
+<ol>
+  <li>
+    <p><strong>Backbone Network</strong>:<br />
+The model starts with a backbone network (e.g., ResNet or MobileNet) that extracts feature maps from the input image.</p>
+  </li>
+  <li>
+    <p><strong>Atrous Convolutions</strong>:<br />
+The feature maps are processed through atrous convolutions with different rates to capture multi-scale context.</p>
+  </li>
+  <li>
+    <p><strong>Atrous Spatial Pyramid Pooling (ASPP)</strong>:<br />
+ASPP is applied to the feature maps to capture context at multiple scales. It includes parallel atrous convolutions with different rates.</p>
+  </li>
+  <li>
+    <p><strong>Upsampling</strong>:<br />
+The final feature maps are upsampled to match the original image resolution.</p>
+  </li>
+  <li>
+    <p><strong>Final Segmentation</strong>:<br />
+The upsampled feature maps are used to generate the final pixel-wise segmentation map.</p>
+  </li>
+  <li>
+    <p><strong>CRF (optional)</strong>:<br />
+In some versions, a CRF may be applied as a post-processing step to refine the segmentation results.</p>
+  </li>
+</ol>
+
+<hr />
+
+<p>DeepLab is a flexible architecture that can be adapted for various tasks and applications by adjusting the backbone network and other components. It has played a crucial role in advancing the field of semantic segmentation and remains a top choice for researchers and practitioners in computer vision.</p>
 
 <h3 id="magic-in-deeplab"><span class="me-2">Magic in DeepLab:</span><a href="#magic-in-deeplab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
